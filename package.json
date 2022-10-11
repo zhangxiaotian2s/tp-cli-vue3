@@ -1,0 +1,24 @@
+{
+	"name": "tp-cli-vue3",
+	"version": "1.0.0",
+	"description": "Quickly build the scaffolding for the foundation layout",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "malunan",
+	"license": "ISC",
+	"bin": {
+		"template-ma": "index.js"
+	},
+	"dependencies": {
+		"chalk": "^4.1.0",
+		"commander": "^6.2.1",
+		"download-git-repo": "^3.0.2",
+		"inquirer": "^7.3.3",
+		"log-symbols": "^4.0.0",
+		"node-notifier": "^9.0.0",
+		"ora": "^5.1.0",
+		"shelljs": "^0.8.4"
+	}
+}
