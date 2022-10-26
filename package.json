@@ -1,6 +1,6 @@
 {
 	"name": "tp-cli-vue3",
-	"version": "1.0.0",
+	"version": "1.0.6",
 	"description": "Quickly build the scaffolding for the foundation layout",
 	"main": "index.js",
 	"scripts": {
@@ -9,7 +9,7 @@
 	"author": "malunan",
 	"license": "ISC",
 	"bin": {
-		"template-ma": "index.js"
+		"tp-cli-vue3": "index.js"
 	},
 	"dependencies": {
 		"chalk": "^4.1.0",

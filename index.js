@@ -8,7 +8,6 @@ commander.command('init <name>') // 定义init子命令，<name>为必需参数�
     .option('-d, --dev', '获取开发版') // 配置参数，简写和全写中使用,分割
     .description('创建项目') // 命令描述说明
     .action(initAction);
-
-
+    
 //这句话必须写在最后面   提供帮助  -h
 commander.parse(process.argv);
